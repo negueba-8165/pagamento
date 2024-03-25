@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #0A267F;
+    
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px #1f1e1e;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+}
+.logo img {
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 40px; /* Espaçamento entre as imagens do logo */
+}
+
+.tela-branca{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 1050px; /* Defina a largura desejada */
+    height: 600px; /* Defina a altura desejada */
+    background-color: white;
+    border-radius: 20px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: black;
+    font-size: 40px;
+    transform: translate(37%, 110%);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(1%, -80%);
+}
+
+span{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    transform: translate(14%, -160%);
+}
+
+.conteiner-buton{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.botao{
+    background-color: #FD6229;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 13px 40px; /* Ajuste o preenchimento para tornar o botão maior */
+    font-size: 25px; /* Ajuste o tamanho da fonte para torná-lo maior */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(1%, -60%);
+    
+}
+
+.celebro{
+    transform: translate(3%, -95%);
+}
+
+h4{
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.borboleta{
+    transform: translate(93%, -600%);
+}
